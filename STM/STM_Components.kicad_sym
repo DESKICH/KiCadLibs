@@ -226,7 +226,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "STM_Components:STM32U31R8T6"
 			(at 54.61 -40.64 0)
 			(effects
 				(font
