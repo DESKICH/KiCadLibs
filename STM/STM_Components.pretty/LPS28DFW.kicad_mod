@@ -1,0 +1,171 @@
+(footprint "LPS28DFW"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "High Precision Pressure Sensor")
+	(tags "STM Pressure Sensor")
+	(property "Reference" "REF**"
+		(at 0 -2.025 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "62a77934-a1a3-41e2-bf36-614e86f88ce5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "LPS28DFW"
+		(at -0.025 2.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dbcd112d-ce5e-4309-9d9e-58e5a1baf10b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01acb48a-fc14-4b8d-86c3-e4c53b7f4320")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.st.com/resource/en/datasheet/lps28dfw.pdf"
+		(at 0.4 7.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f79389cd-ba6a-4952-80dd-8f6cbaf23016")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "626083bf-3a03-4b8d-9a51-e1ed54b8a229")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.5 -1.45)
+		(end 1.5 1.475)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4cc7d88f-3c25-4abe-ab0b-dda6333be53b")
+	)
+	(fp_circle
+		(center -2.075 0)
+		(end -1.975 0.175)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7e0600d1-9cdc-42af-b347-634556f2351b")
+	)
+	(fp_rect
+		(start -1.6 -1.55)
+		(end 1.6 1.575)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Margin")
+		(uuid "e197ac29-a50d-47b7-bd43-ba8c8185d8e5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.125 4.225 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "741cbd13-b658-4777-8aaa-444f4ac22818")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.125 0)
+		(size 0.35 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e35a58f5-4cf5-4728-b6f2-fc607c590c5b")
+	)
+	(pad "2" smd rect
+		(at -0.575 1.125)
+		(size 0.9 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3c67c7e7-a528-4ec5-9540-86e9cf84c9ff")
+	)
+	(pad "3" smd rect
+		(at 0.575 1.125)
+		(size 0.9 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9513266c-c46b-4e46-a09f-04c300d44a9d")
+	)
+	(pad "4" smd rect
+		(at 1.125 0)
+		(size 0.35 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ea19964d-2bd4-40e7-8f20-c7f198458fad")
+	)
+	(pad "5" smd rect
+		(at 0.575 -1.125)
+		(size 0.9 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b7f9a8ce-a7ca-47ec-b801-d38020d1a475")
+	)
+	(pad "6" smd rect
+		(at -0.575 -1.125)
+		(size 0.9 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7850bf4c-afd9-47a8-a9dc-26d872177827")
+	)
+	(pad "7" smd rect
+		(at 0 0)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2343546d-c8c6-43ae-9333-434256d9597d")
+	)
+	(model "C:/KiCadLibs/STM/LPS28DFW/LPS28DFW.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
