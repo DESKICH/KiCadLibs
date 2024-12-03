@@ -1,0 +1,204 @@
+(footprint "CJS-1200TA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.025 -2.65 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "86116334-e77f-4aab-9829-cdb766d0ac59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CJS-1200TA"
+		(at 0 2.575 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b5d354a0-334f-4ba6-b6fc-e9b832499567")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d159471-2e53-4316-bb31-2eb29beb8438")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db89e7a7-1c05-4412-ac1d-bdd2b92c7546")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad0e44ef-68b0-4527-82bb-af11e05ef5b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -1.1)
+		(end -2.5 0.975)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "66361fb3-c2b7-4523-9879-713f05d86af6")
+	)
+	(fp_line
+		(start -1.125 1.025)
+		(end 1.075 1.025)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3b49d4e2-4aaa-409b-a2a6-9f0098ae108c")
+	)
+	(fp_line
+		(start -0.8 -1.1)
+		(end -2.5 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "36f0b1b6-0c5f-4c70-9bf1-add025a211e5")
+	)
+	(fp_line
+		(start 0.65 -1.1)
+		(end 2.575 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8e09ac3-d8fd-4f4a-a5fa-fec69c9295ae")
+	)
+	(fp_line
+		(start 2.575 -1.1)
+		(end 2.575 1.025)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0d6adbf7-cd5a-4906-a095-52c4052e0236")
+	)
+	(fp_line
+		(start -2.5 -1.125)
+		(end 2.55 -1.125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "95db526c-3d76-45a9-a956-94d14c1ae42c")
+	)
+	(fp_line
+		(start -2.5 1)
+		(end -2.5 -1.125)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "389597d5-3169-40d8-918f-7f40fd0c533c")
+	)
+	(fp_line
+		(start 2.525 1.025)
+		(end -2.5 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "4bd21cf6-b9c9-4a47-acef-847e5b16b9e8")
+	)
+	(fp_line
+		(start 2.55 -1.125)
+		(end 2.525 1.025)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Margin")
+		(uuid "b41d063e-4f02-41ba-816a-428a6c494adb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.025 4.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f6f1d222-c9b4-4d33-9082-3bde0631741d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.75 1)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2437636e-dd08-48c9-ba00-6f9f62d24b05")
+	)
+	(pad "2" smd rect
+		(at 0 -1)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "80651329-c403-4421-97c2-6e298b521c3b")
+	)
+	(pad "3" smd rect
+		(at 1.75 1)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "fab7d8f2-7d2b-4b26-8b6c-77698a7c37af")
+	)
+	(model "C:/KiCadLibs/DipSwitches/CJS-1200TA/CJS-1200TA.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
